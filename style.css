@@ -50,9 +50,3 @@ input[type="button"]:hover {
     background-color: #f0f0f0; 
     color: #000;
 }
-.button{
-    border: 0;
-    display: flex ;
-    justify-content: flex-end;
-    margin: 20px 0;
-}
