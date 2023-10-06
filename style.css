@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial ;
     box-sizing: border-box;
 }
 
@@ -47,6 +47,12 @@ form input.size_of_button {
     width: 145px;
 }
 input[type="button"]:hover {
-    background-color: #f0f0f0; /* Change the color to your desired shade */
+    background-color: #f0f0f0; 
     color: #000;
+}
+.button{
+    border: 0;
+    display: flex ;
+    justify-content: flex-end;
+    margin: 20px 0;
 }
