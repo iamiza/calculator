@@ -29,7 +29,7 @@ cd calculator
 
 ## Usage
 
-- click on the calculator buttons to input numbers and operators
+- Click on the calculator buttons to input numbers and operators
 - Use the keyboard for input (e.g., press '1' for 1, '+' for addition, 'Enter' for equals)
 - Result will be displayed in the calculator's display area.
 
@@ -45,3 +45,6 @@ You can customize the project by:
  
     - The calculator design and functionality were created by Iza K.C.
     - The font used in the calculator is "Digital-7" and is included in the project's assets.
+
+# Find the calculator here
+https://www.izakc.com.np/calculator/
