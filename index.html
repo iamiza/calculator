@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -12,48 +12,44 @@
     <div class="container">
         <div class="calculator">
             <form>
-                <div class = "display">
+                <div class="display">
                     <input type="text" name="display" readonly>
                 </div>
                 <div>
-                    <input type="button" value="AC" onclick="display.value = ''">
-                    <input type="button" value="DE" onclick="display.value = display.value.toString().slice(0,-1)">
-                    <input type="button" value=". " onclick="display.value += '.'">
-                    <input type="button" value="/ " onclick="display.value += '/'">
+                    <input type="button" value="AC" onclick="clearDisplay()">
+                    <input type="button" value="DE" onclick="removeLastCharacter()">
+                    <input type="button" value="." onclick="appendToDisplay('.')">
+                    <input type="button" value="/" onclick="appendToDisplay('/')">
+                </div>
+                <div>
+                    <input type="button" value="7" onclick="appendToDisplay('7')">
+                    <input type="button" value="8" onclick="appendToDisplay('8')">
+                    <input type="button" value="9" onclick="appendToDisplay('9')">
+                    <input type="button" value="*" onclick="appendToDisplay('*')">
+                </div>
+                <div>
+                    <input type="button" value="4" onclick="appendToDisplay('4')">
+                    <input type="button" value="5" onclick="appendToDisplay('5')">
+                    <input type="button" value="6" onclick="appendToDisplay('6')">
+                    <input type="button" value="-" onclick="appendToDisplay('-')">
 
                 </div>
                 <div>
-                    <input type="button" value="7 " onclick="display.value += '7'">
-                    <input type="button" value="8 " onclick="display.value += '8'">
-                    <input type="button" value="9 " onclick="display.value += '9'">
-                    <input type="button" value="* " onclick="display.value += '*'">
-
+                    <input type="button" value="1" onclick="appendToDisplay('1')">
+                    <input type="button" value="2" onclick="appendToDisplay('2')">
+                    <input type="button" value="3" onclick="appendToDisplay('3')">
+                    <input type="button" value="+" onclick="appendToDisplay('+')">
                 </div>
                 <div>
-                    <input type="button" value="4 " onclick="display.value += '4'">
-                    <input type="button" value="5 " onclick="display.value += '5'">
-                    <input type="button" value="6 " onclick="display.value += '6'">
-                    <input type="button" value="- " onclick="display.value += '-'">
-
-                </div>
-                <div>
-                    <input type="button" value="1 " onclick="display.value += '1'">
-                    <input type="button" value="2 " onclick="display.value += '2'">
-                    <input type="button" value="3 " onclick="display.value += '3'">
-                    <input type="button" value="+ " onclick="display.value += '+'">
-
-                </div>
-                <div>
-                    <input type="button" value="00" onclick="display.value += '00'" >
-                    <input type="button" value="0 " onclick="display.value += '0'">
-                    <input type="button" value="= " onclick="display.value = eval(display.value)" class="size_of_button">
-
-
+                    <input type="button" value="00" onclick="appendToDisplay('00')">
+                    <input type="button" value="0" onclick="appendToDisplay('0')">
+                    <input type="button" value="=" onclick="evaluateExpression()" class="size_of_button">
                 </div>
             </form>
         </div>
     </div>
 
 </body>
+<script src="js/script.js"></script>
 
 </html>
