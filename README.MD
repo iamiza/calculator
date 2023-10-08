@@ -2,7 +2,7 @@
 
 A Calculator made using HTML, CSS, and JavaScript.
 
-![Screenshot](assets/images/screenshot.png)
+![Screenshot](https://github.com/iamiza/calculator/blob/master/assets/images/Screenshot.png?raw=true)
 
 ## Features
 
@@ -28,11 +28,13 @@ cd calculator
 3. Open `index.html` file in your web-browser
 
 ## Usage
+
 - click on the calculator buttons to input numbers and operators
 - Use the keyboard for input (e.g., press '1' for 1, '+' for addition, 'Enter' for equals)
 - Result will be displayed in the calculator's display area.
 
 ## Customization
+
 You can customize the project by:
 
     - Changing the appearance and styles in the CSS file (style.css).
