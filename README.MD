@@ -1,8 +1,11 @@
-## CALCULATOR 
+# CALCULATOR 
 
 A Calculator made using HTML, CSS, and JavaScript.
 
 ![Screenshot](https://github.com/iamiza/calculator/blob/master/assets/images/Screenshot.png?raw=true)
+
+## Find the calculator here
+https://www.izakc.com.np/calculator/
 
 ## Features
 
@@ -46,5 +49,3 @@ You can customize the project by:
     - The calculator design and functionality were created by Iza K.C.
     - The font used in the calculator is "Digital-7" and is included in the project's assets.
 
-# Find the calculator here
-https://www.izakc.com.np/calculator/
